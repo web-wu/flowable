@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/flowable?serverTimezone=Asia/Shanghai&useSSL=false&nullCatalogMeansCurrent=true
+    username: root
+    password: innosen
+
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
